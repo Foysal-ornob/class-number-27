@@ -1,0 +1,16 @@
+@media(max-width: 991px){
+	.icon-menu-i{
+	display: flex;
+	justify-content: flex-end;
+
+
+	}
+
+	.icon-menu-i i{
+		color: #fff;
+	}
+.menu{
+display: none;
+
+
+}

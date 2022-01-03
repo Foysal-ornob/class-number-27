@@ -1,0 +1,576 @@
+ /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=
+											header area
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=*/
+.header-area{
+	background-image: url(../images/24.png);
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.logo {
+	padding-top:20px ;
+}
+
+
+.icon-menu-i{
+	display: none;
+}
+
+.menu{padding-top:20px ;}
+.menu ul{
+	list-style: none;
+	display: flex;
+	justify-content: end;
+	
+}
+.menu ul li{
+	margin: 0 20px;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-weight: 700;
+}
+
+.header-titel{
+	text-align: center;
+	padding-top: 250px;
+	padding-bottom: 200px;
+}
+.header-titel h4{
+	color: #ffffff;
+	font-weight: 700;
+}
+.header-titel h1{
+	color: #fff;
+	font-weight: 800;
+}
+
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=
+											about area
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+.about-area{
+	padding: 50px 0;
+	background-color: #f2f6fa;
+}
+.about-area-text{
+	padding-top: 60px;
+}
+
+
+
+
+.about-img-sm{
+	position: relative;
+}
+.bank{}
+.about-img{
+	position: absolute;
+	top: 7%;
+	left: 5%;
+}
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=
+											service area
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=*/
+
+.service-area{
+	padding: 20px 0;
+}
+.service-text{
+	text-align: center;
+}
+.service-text h1{
+	position: relative;
+	display: inline-block;
+}
+
+.service-text h1::before{
+	content: '';
+	display: block;
+	position: absolute;
+	width: 110px;
+	height: 2px;
+	top: 100%;
+	left: 20%;
+	background-color: #009cff;
+}
+
+.service-text h1::after{
+	content: '';
+	display: block;
+	position: absolute;
+	width: 110px;
+	height: 2px;
+	top: 115%;
+	left: 40%;
+	background-color: #85d0ff;
+}
+
+
+
+.service-pera{
+	
+	
+	
+}
+.service-pera p{
+	padding: 40px 0;
+	
+
+
+}
+
+.service-boxall{text-align: center;
+
+}
+.service-icon{}
+.service-text{}
+.service-text h3{
+	font-size: 20px;
+	padding: 10px 0;
+}
+.service-text h6{
+	font-style: italic;
+	padding-bottom: 80px;
+}
+
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=
+											video area
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=*/
+.video-area{
+	background-image: url(../images/26.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 468px;
+	
+	display: flex;
+	justify-content:center;
+	text-align: center;
+	align-items: center;
+}
+
+.play-icon{
+
+}
+.play-icon a{
+font-size: 40px;
+color: #fff;
+}
+
+
+
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=
+											work area
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=*/
+.work-area{}
+.work-area-top{
+	text-align: center;
+	;
+}
+.work-area-top h1{
+	position: relative;
+	display: inline-block;
+}
+
+.work-area-top h1::before{
+	content: '';
+	position: absolute;
+	display: block;
+	width: 110px;
+	height: 2px;
+	top: 100%;
+	left: 25%;
+	background-color: #009cff;
+}
+
+
+.work-area-top h1::after{
+	content: '';
+	position: absolute;
+	display: block;
+	width: 110px;
+	height: 2px;
+	top: 115%;
+	left: 40%;
+	background-color: #85d0ff;
+}
+
+
+.work-area-top p{
+	padding-top: 10px;
+}
+
+.in-button{ text-align: center; }
+
+.in-button button{
+	border: none;
+	background-color: transparent;
+	margin: 15px 0;
+	font-weight: 500;
+}
+
+.work-img{
+
+}
+.work-img img{
+	margin-bottom: 10px;
+}
+button.arre {
+	color:#85d0ff ;
+	text-decoration: line-through;
+}
+
+
+.isotope-img img {
+	margin-bottom: 15px;
+}
+
+/*=====================================================================================================
+									Client Reviews
+======================================================================================================*/
+
+.Client-Reviews-area{
+	background-image: url(../images/blur.png);
+}
+.Client-Reviews-top-text{text-align: center;
+padding-top: 120px;
+}
+.Client-Reviews-top-text h1{
+	position: relative;
+	display: inline-block;
+
+}
+.Client-Reviews-top-text h1::before{
+	content: '';
+	display: block;
+	position: absolute;
+	width: 120px;
+	height: 2px;
+	top: 100%;
+	left: 22%;
+	background-color: #959595;
+}
+
+.Client-Reviews-top-text h1::after{
+	content: '';
+	display: block;
+	position: absolute;
+	width: 120px;
+	height: 2px;
+	top: 110%;
+	left: 40%;
+	background-color: #959595;
+}
+
+
+.Client-Reviews-top-text-pera{
+	display: flex;
+	justify-content: center;
+}
+.Client-Reviews-top-text-pera p{
+	width: 50%;
+	font-style: italic;
+	padding-bottom: 30px;
+	padding-top: 10px;
+}
+
+.Client-Reviews-all-img{
+	text-align: center;
+}
+
+.Client-Reviews-button-img-text{}
+.Client-Reviews-button-img-text h3{
+	font-size: 16px;
+}
+.Client-Reviews-button-img-pera{}
+.Client-Reviews-button-img-pera p{
+	font-style: italic;
+}
+.Client-Reviews-button-img-icon{
+	padding-bottom: 120px;
+}
+.Client-Reviews-button-img-icon i{
+	color: #e67d5f;
+}
+
+/*=============================================================================================
+										best team
+===============================================================================================*/
+
+.best-team-area{}
+.best-team-top-text{
+	text-align: center;
+	padding-top: 120px;
+}
+.best-team-top-text h1{
+	position: relative;
+	display: inline-block;
+}
+.best-team-top-text h1::before{
+	content: '';
+	display: block;
+	position: absolute;
+	width: 85px;
+	height: 2px;
+	top: 100%;
+	left: 18%;
+	background-color: #a3a3a3;
+}
+
+.best-team-top-text h1::after{
+	content: '';
+	display: block;
+	position: absolute;
+	width: 85px;
+	height: 2px;
+	top: 110%;
+	left: 35%;
+	background-color: #a3a3a3;
+}
+
+
+
+
+.best-team-top-pera{
+	display: flex;
+	justify-content: center;
+	padding-top: 30px;
+}
+.best-team-top-pera p{
+	width: 50%;
+}
+
+
+.best-team-area-button{
+	text-align: center;
+}
+.best-team-area-button-img{
+position: relative;
+overflow: hidden;
+}
+.best-team-area-button-img img{
+
+}
+.best-team-area-button-img-inbox{
+
+}
+.best-team-area-button-img:hover .best-team-area-button-img-icon{
+	left: 0;
+}
+
+
+
+.best-team-area-button-img-icon{
+	background-color: rgba(247, 249, 249, 0.6);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: -100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.best-team-area-button-img-icon ul{}
+.best-team-area-button-img-icon ul a{
+	margin: 0 8px;
+	color: #000000;
+	font-size: 20px;
+}
+
+.best-team-area-button-img-icon ul a:hover{
+color: #0e7b9e;
+font-weight: 800;
+}
+.best-team-area-button-img-text{
+	background-color: #f3f6f7;
+	padding: 20px 0;
+}
+.best-team-area-button-img-text h5{}
+.best-team-area-button-img-text p{
+	font-style: italic;
+}
+
+
+/*===================================================================================================
+
+									our blog
+====================================================================================================*/
+
+.our-blog-area{
+	padding: 50px 0;
+}
+.our-blog-area-top{}
+.our-blog-area-top-text{
+	text-align: center;
+}
+.our-blog-area-top-text h1{
+	position: relative;
+	display: inline-block;
+	padding: 80px 0 0;
+}
+.our-blog-area-top-text h1::before{
+	content: '';
+	display: block;
+	position: absolute;
+	width: 85px;
+	height: 2px;
+	top: 100%;
+	left: 18%;
+	background-color: #009cff;
+}
+
+.our-blog-area-top-text h1::after{
+	content: '';
+	display: block;
+	position: absolute;
+	width: 85px;
+	height: 2px;
+	top: 108%;
+	left: 35%;
+	
+	background-color: #85d0ff;
+}
+
+.our-blog-area-top-pera{
+	display:flex;
+	justify-content: center;
+}
+.our-blog-area-top-pera p{
+	width: 50%;
+	padding-top: 20px;
+	font-style: italic;
+}
+
+
+
+.our-blog-button-allimg{
+	display: flex;
+	justify-content: space-between;
+}
+
+.our-blog-button-allimg{
+
+}
+.our-blog-button-img{}
+.our-blog-button-img img{}
+
+.our-blog-button-text{
+	background-color: #f8fafc;
+
+}
+.our-blog-button-text h3{
+	padding-left: 10px;
+}
+.our-blog-button-text h6{
+	padding-left: 10px;
+	font-style: italic;
+}
+.our-blog-button-text p{
+	padding-left: 10px;
+}
+.our-blog-button-text-icno {}
+.our-blog-button-text-icno ul{}
+.our-blog-button-text-icno ul a{
+	text-decoration: none;
+	color: #e74c3c;
+}
+..our-blog-button-text-icno ul a i{
+	
+}
+
+/*=-==========================================================================================================
+												map
+==============================================================================================================*/
+
+.contact-area-button{
+	position: relative;
+}
+.veer-map{}
+.in-box-map{}
+
+.veer-contact-button{
+	width: 60%;
+	margin: 0 auto;
+	padding: 46px;
+	background-color: rgba(0, 0, 0, 0.7);
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.veer-contact-input{}
+
+.veer-contact-input-text{}
+.veer-contact-input-text h1{
+	color: #fff;
+}
+
+.veer-contact-input-inbox{}
+.veer-contact-input-inbox input{
+	width: 100%;
+	box-sizing: border-box;
+	margin-bottom: 8px;
+	background-color: transparent;
+	border: solid 1px #009cff;
+}
+..veer-contact-input-inbox input: fucos{
+	outline: none;
+	border-color: #f8fafc ;
+}
+
+.veer-contact-input-text{
+	padding-bottom: 10px;
+}
+.veer-contact-input-text textarea{
+	width: 100%;
+	box-sizing: border-box;
+	height: 150px;
+	background-color: transparent;
+	border: solid 1px #009cff;
+}
+
+/*=-==================================================================================================
+											end area
+====================================================================================================*/
+
+.veer-end{
+	padding: 12px 0;
+}
+
+.veer-end-text{}
+.veer-end-text ul{}
+.veer-end-text ul a{
+	text-decoration: none;
+	margin:0 12px;
+	color: #949494;
+}
+
+.veer-end-menu{
+	display: flex;
+	justify-content: flex-end;
+}
+.veer-end-menu ul{}
+.veer-end-menu ul a{
+	margin:0 8px;
+	color: #949494;
+}
+.veer-end-menu ul a i{}
